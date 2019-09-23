@@ -41,4 +41,4 @@ an elephant
 
 ## Copyright and License
 
-Original Perl module Copyright &copy; 1997-2009 Damian Conway; Original PHP port Copyright &copy; 2012 Niko Salminen; Original library copyright &copy; 2016 Zachary Flower; Current library copyright &copy; 2018 Spenser Hale; 2019 Brian Stanley; Code released under the [BSD license](LICENSE).
+Original Perl module Copyright &copy; 1997-2009 Damian Conway; Original PHP port Copyright &copy; 2012 Niko Salminen; Original library copyright &copy; 2016 Zachary Flower and copyright &copy; 2018 Spenser Hale; Current library copyright &copy; 2019 Brian Stanley; Code released under the [BSD license](LICENSE).
