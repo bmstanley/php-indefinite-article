@@ -9,21 +9,21 @@ and then by [made into composer package](https://github.com/zachflower/php-indef
 
 ### Via Composer
 
-Require the library and update via [Composer](https://getcomposer.org/):
+Add the library to your `Composer.json` file
 
 ```
-composer require spenserhale/indefinite-article
-composer update
+"repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/bmstanley/php-indefinite-article"
+  }
+],
+"require": {
+  "bmstanley/indefinite-article": "^1.0"
+},
 ```
 
-### Manually
-
-Download the [latest release](https://github.com/bmstanley/php-indefinite-article/archive/master.zip), extract into a directory called `indefinite-article`, and include the library at the beginning of your script:
-
-```
-include_once('./indefinite-articles/src/IndefiniteArticle.php');
-use \IndefiniteArticle\IndefiniteArticle;
-```
+Run `composer install` to download and install the repository
 
 ## Usage
 
