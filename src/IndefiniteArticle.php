@@ -4,9 +4,9 @@ namespace IndefiniteArticle;
 
 class IndefiniteArticle
 {
-    private const A = 'a';
+    const A = 'a';
 
-    private const AN = 'an';
+    const AN = 'an';
 
     private static $rules = [
         // any number starting with an '8' uses 'an'
