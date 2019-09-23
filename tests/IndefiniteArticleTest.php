@@ -4,9 +4,9 @@ use IndefiniteArticle\IndefiniteArticle;
 
 class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
 {
-    private const AN = 'an';
+    const AN = 'an';
 
-    private const A = 'a';
+    const A = 'a';
 
     /**
      * Numbers
@@ -64,10 +64,12 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
             'euler number' => self::AN,
             's' => self::AN,
             'x' => self::AN,
-            'hour' => self::AN,
             'heir' => self::AN,
+            'herb' => self::AN,
+            'herbivore' => self::AN,
             'honest' => self::AN,
             'honorary' => self::AN,
+            'hour' => self::AN,
             'b' => self::A,
             'z' => self::A
         );
