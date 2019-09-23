@@ -11,7 +11,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Numbers
      */
-    public function testNumbers(): void
+    public function testNumbers()
     {
         $assertions = array(
             0 => self::A,
@@ -39,7 +39,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Ordinal forms
      */
-    public function testOrdinals(): void
+    public function testOrdinals()
     {
         $assertions = array(
             'eleventh' => self::AN,
@@ -58,7 +58,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Special cases
      */
-    public function testSpecialCases(): void
+    public function testSpecialCases()
     {
         $assertions = array(
             'euler number' => self::AN,
@@ -80,7 +80,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Abbreviations
      */
-    public function testAbbreviations(): void
+    public function testAbbreviations()
     {
         $assertions = array('mr.' => self::A, 'mrs.' => self::A, 'dr.' => self::A, 'st.' => self::A, 'x-ray' => self::AN);
 
@@ -90,7 +90,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Consonants
      */
-    public function testConsonants(): void
+    public function testConsonants()
     {
         $assertions = array(
             'dog' => self::A,
@@ -109,7 +109,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Special vowel forms
      */
-    public function testSpecialVowelForms(): void
+    public function testSpecialVowelForms()
     {
         $assertions = array(
             'european' => self::A,
@@ -127,7 +127,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Special capitals
      */
-    public function testSpecialCapitals(): void
+    public function testSpecialCapitals()
     {
         $assertions = array('Ukranian' => self::AN, 'Uzbekistani' => self::AN, 'UNO' => self::A, 'American' => self::AN);
 
@@ -137,7 +137,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Vowels
      */
-    public function testVowels(): void
+    public function testVowels()
     {
         $assertions = array(
             'apple' => self::AN,
@@ -155,7 +155,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
     /**
      * Y
      */
-    public function testY(): void
+    public function testY()
     {
         $assertions = array('year' => self::A, 'yellow' => self::A, 'yclad' => self::AN);
 
@@ -167,7 +167,7 @@ class IndefiniteArticleTest extends PHPUnit\Framework\TestCase
      *
      * @param  array $cases Array of key/value assertions
      */
-    private function _testAssertions(array $cases = array()): void
+    private function _testAssertions(array $cases = array())
     {
         foreach ($cases as $case => $prefix) {
             // ensure that the expected prefix is added to the original case
